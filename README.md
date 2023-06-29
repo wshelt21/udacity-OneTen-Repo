@@ -1,1 +1,1 @@
-# udacity-OneTen-Repo
+# Udacity OneTen Scholarship Repo
