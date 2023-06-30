@@ -6,6 +6,9 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+    color: #e4dac9;
 }
 
 .card_image {
@@ -17,13 +20,21 @@ body {
     flex-direction: column;
     gap: 20px;
     max-width: 300px;
-    border: solid 1px rgb(185, 185, 185);
+    border: solid 2px #66502b;
     padding: 20px;
     margin-top: 100px;
+    box-shadow: 10px 10px 20px -16px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 10px 10px 20px -16px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 10px 10px 20px -16px rgba(0, 0, 0, 0.71);
+    background-color: #8B6B38;
+}
+
+.description {
+    font-style: italic;
 }
 
 .info {
-    border: solid 1px rgb(185, 185, 185);
+    border: solid 2px #524023;
     padding: 20px;
 }
 
@@ -35,7 +46,13 @@ ul li {
     list-style: none;
 }
 
+h1 {
+    color: #3A250C;
+    font-size: 5rem;
+}
+
 h2 {
     display: inline;
-    font-size: 1rem;
+    font-size: .9rem;
+    font-weight: 800;
 }
